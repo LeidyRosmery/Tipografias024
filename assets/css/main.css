@@ -16,15 +16,17 @@ body{
   -webkit-transition: all 1s ease;
   -moz-transition:all 1s ease;
   -o-transition:all 1s ease;
+  color:#777777;
   transition: all 1s ease;
 }
 h2{
-  color:#777777;
+
   font-style: normal;
   font-weight: bold;
 }
 h5{
-  font-family: "Slabo+27px" ,"roboto";
+  font-family: "Slabo+27px" ,serif;
+  font-size: 10px;
 }
 p{
   font-style: normal;
