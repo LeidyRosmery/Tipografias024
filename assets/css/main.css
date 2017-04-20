@@ -1,3 +1,7 @@
+body{
+  font-family: "Roboto", serif;
+  font-style: italic;
+}
 .box{
   width: 220px;
   height: 270px;
@@ -13,14 +17,29 @@
   transition: all 1s ease;
 }
 h2{
-  font-family:"Slabo+27px" ,"Roboto" ;
   color:#777777;
+  font-style: normal;
+  font-weight: bold;
+}
+h5{
+  font-family: "Slabo+27px" ,"roboto";
+}
+p{
+  font-style: normal;
 }
 .box:hover{
   padding-top: 20px;
   color: white;
   background-color: #fff;
   -webkit-transform: scale(1.1);
-  color:#8C8F98;
+  color:#7aa2f4;
   -webkit-transition:all .0.5s ease-in-out;
+
+}
+.icon-paperplane,
+.icon-diamond,
+.icon-heart,
+.icon-cup,
+.icon-food{
+    font-size: 55px;
 }
